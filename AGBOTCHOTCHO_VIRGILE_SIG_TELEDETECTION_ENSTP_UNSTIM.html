@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/ol.css">
+        <link rel="stylesheet" href="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/fontawesome-all.min.css">
+        <link rel="stylesheet" href="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/ol-layerswitcher.css">
+        <link rel="stylesheet" href="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/qgis2web.css">
+<style>
+.search-layer {
+  top: 65px;
+  left: .5em;
+}
+.ol-touch .search-layer {
+  top: 80px;
+}
+</style>
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control button {
+            background-color: #f8f8f8 !important;
+            color: #000000 !important;
+            border-radius: 0px !important;
+        }
+        .ol-zoom, .geolocate, .gcd-gl-control .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 3px !important;
+        }
+        .ol-scale-line {
+            background: none !important;
+        }
+        .ol-scale-line-inner {
+            border: 2px solid #f8f8f8 !important;
+            border-top: none !important;
+            background: rgba(255, 255, 255, 0.5) !important;
+            color: black !important;
+        }
+        </style>
+        <style>
+        #map {
+            width: 1083px;
+            height: 559px;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            
+        <div class="ol-viewport" style="position: relative; overflow: hidden; width: 100%; height: 100%;"><div style="position: absolute; width: 100%; height: 100%; z-index: 0;" class="ol-unselectable ol-layers"><div class="ol-layer" style="position: absolute; width: 100%; height: 100%;"><canvas style="position: absolute; left: 0px; transform-origin: left top 0px; transform: matrix(1, 0, 0, 1, 0, 0);" width="1083" height="559"></canvas></div></div><div style="position: absolute; z-index: 0; width: 100%; height: 100%;" class="ol-overlaycontainer"></div><div style="position: absolute; z-index: 0; width: 100%; height: 100%;" class="ol-overlaycontainer-stopevent"><div class="ol-overlay-container ol-selectable" style="position: absolute; transform: translate(0%, 0%) translate(805px, 128px);"><div id="popup" class="ol-popup" style="display: none;">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"><ul><li><table><tbody><tr><td colspan="2">0</td></tr><tr><td colspan="2">DJIDJA</td></tr><tr><td colspan="2"></td></tr></tbody></table></li><li><table><tbody><tr><td colspan="2"><strong>NUM_ROUTE:</strong><br>Non renseigné</td></tr><tr><td colspan="2"><strong>TYPE:</strong><br>AUTRE</td></tr><tr><td colspan="2"><strong>CL_ADMIN:</strong><br>NC</td></tr><tr><td colspan="2"><strong>REVETEMENT:</strong><br>NON_REVETU</td></tr><tr><td colspan="2"><strong>PRATICAB:</strong><br>PERMANENT</td></tr><tr><td colspan="2"><strong>CHAUSSEE_S:</strong><br>0</td></tr><tr><td colspan="2"><strong>VOIE_LOCAL:</strong><br>0</td></tr><tr><td colspan="2"><strong>FRANCHISST:</strong><br>NC</td></tr><tr><td colspan="2"><strong>SOURCE:</strong><br>RESTITUTION</td></tr><tr><td colspan="2"><strong>SHAPE_LENG:</strong><br>5,423.032</td></tr></tbody></table></li></ul></div>
+            </div></div><div class="ol-zoom ol-unselectable ol-control"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass" style="transform: rotate(0rad);">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-uncollapsible"><ul><li><a href="https://github.com/tomchadwin/qgis2web">qgis2web</a> · </li><li><a href="https://openlayers.org/">OpenLayers</a> · </li><li><a href="https://qgis.org/">QGIS</a></li><li> </li></ul><button type="button" title="Attributions"><span>i</span></button></div></div></div></div>
+        <script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/qgis2web_expressions.js"></script>
+        <script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/polyfills.js"></script>
+        <script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/functions.js"></script>
+        <script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/ol.js"></script>
+        <script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/ol-layerswitcher.js"></script>
+        <script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/zone_de_vegetation_0.js"></script><script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/LIM_ABOMEY_1.js"></script><script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/localite_2.js"></script><script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/cours_deau_3.js"></script><script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/aire_protegee_4.js"></script><script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/route_5.js"></script><script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/LIM_DJIJA_6.js"></script><script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/sol_nu_7.js"></script>
+        <script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/zone_de_vegetation_0_style.js"></script><script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/LIM_ABOMEY_1_style.js"></script><script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/localite_2_style.js"></script><script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/cours_deau_3_style.js"></script><script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/aire_protegee_4_style.js"></script><script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/route_5_style.js"></script><script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/LIM_DJIJA_6_style.js"></script><script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/sol_nu_7_style.js"></script>
+        <script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/layers.js" type="text/javascript"></script> 
+        <script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/Autolinker.min.js"></script>
+        <script src="AGBOTCHOTCHO_VIRGILE_SIG_TELEDETECTION_ENSTP_UNSTIM_files/qgis2web.js"></script>
+    
+
+</body></html>
